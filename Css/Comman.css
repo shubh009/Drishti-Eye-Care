@@ -2,7 +2,7 @@
   float: left;
   width: 100%;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
 }
 .bgsecnew h2 {
   color: white !important;
@@ -16,8 +16,8 @@
 .header ul li a {
   color: black;
   padding: 10px;
-  font-size: 18px !important;
-
+  font-size: 20px !important;
+  font-weight: 600 !important;
   float: left;
 }
 .header ul li a:hover {
@@ -609,8 +609,8 @@ a:hover {
   background-color: #ffde59;
 }
 /* General styles */
-.dropdown-menu{
-  top:30px !important
+.dropdown-menu {
+  top: 30px !important;
 }
 
 .navbar {
