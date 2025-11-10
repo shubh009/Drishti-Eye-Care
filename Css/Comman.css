@@ -376,13 +376,6 @@ a {
   display: table;
 }
 
-.dropdown-menu a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
 .font-13 {
   font-size: 13px;
 }
@@ -629,17 +622,6 @@ a:hover {
   position: relative;
 }
 
-.nav-item a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  display: block;
-}
-
-.nav-item a:hover {
-  background-color: #575757;
-}
-
 /* Dropdown styles */
 .dropdown-menu {
   list-style: none;
@@ -648,18 +630,15 @@ a:hover {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #333;
   display: none;
   /* Hidden by default */
-  min-width: 160px;
+  min-width: 220px !important;
 }
 
 .dropdown-menu li a {
   padding: 10px 15px;
-}
-
-.dropdown-menu li a:hover {
-  background-color: #575757;
+  border-bottom: solid 1px #575757;
+  width: 100%;
 }
 
 /* Show dropdown menu on hover */
