@@ -139,6 +139,11 @@ p {
   font-size: 18px;
   font-weight: 500;
 }
+.card-body p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px !important;
+}
 .left-theme-border {
   border-left: solid 2px #ed5a6b;
 }
@@ -911,6 +916,7 @@ ul li p {
   border-bottom: solid 1px #ddd;
   padding-top: 15px;
   list-style-position: inside;
+  font-size: 20px;
 }
 
 .card-body ul li:last-child {
@@ -918,7 +924,7 @@ ul li p {
 }
 
 .card-body {
-  padding: 15px 20px !important;
+  padding: 15px 35px !important;
 }
 .divsqre {
   height: 80px;
