@@ -18,54 +18,64 @@
 
   <body>
     <div class="col-lg-12 noleftpadding norightpadding">
-      <div class="header box-shadow bg-white">
+      <header class="header box-shadow bg-white">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-5">
-              <img src="/Images/Drishti Logo.jpeg" width="70px"  class="pull-left" />
-              <div class="pull-left">
-                <span class="logo text-th pull-left fulldiv"> Dristi Eye </span>
-                <span class="logo text-th pull-left fulldiv"> Care Centre</span>
+          <nav class="navbar navbar-expand-lg navbar-light bg-white px-0">
+            <!-- Logo Section -->
+            <a class="navbar-brand d-flex align-items-center" href="/">
+              <img src="/Images/Drishti Logo.jpeg" alt="Dristi Eye Care Logo" width="60" class="mr-2" />
+              <div class="d-flex flex-column lh-1">
+                <span class="logo text-th font-weight-bold">Dristi Eye</span>
+                <span class="logo text-th font-weight-bold">Care Centre</span>
               </div>
+            </a>
+      
+            <!-- Toggle Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav align-items-lg-center">
+                <li class="nav-item">
+                  <a class="nav-link txtblack" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link txtblack" href="/about-us.html">About</a>
+                </li>
+      
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle txtblack" href="#" id="servicesDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                    <a class="dropdown-item" href="./Cataracts.html">Cataracts</a>
+                    <a class="dropdown-item" href="./Astigmatism.html">Astigmatism</a>
+                    <a class="dropdown-item" href="./Glaucoma.html">Glaucoma</a>
+                    <a class="dropdown-item" href="./Myopia.html">Myopia</a>
+                    <a class="dropdown-item" href="./dry-eye.html">Dry Eyes</a>
+                    <a class="dropdown-item" href="./diabetic-retinopathy.html">Diabetic Retinopathy</a>
+                    <a class="dropdown-item" href="./lasik-surgery.html">Lasik Surgery</a>
+                  </div>
+                </li>
+      
+                <!-- <li class="nav-item">
+                  <a class="nav-link txtblack" href="#">Testimonial</a>
+                </li> -->
+                <li class="nav-item">
+                  <a href="https://crm.dristieye.com" class="btn bg-theme rounded-pill text-white ml-lg-3 mt-2 mt-lg-0">
+                    <i class="fa fa-lock mr-1"></i> Login Here
+                  </a>
+                </li>
+              </ul>
             </div>
-
-            <div class="col-lg-7">
-              <div class="pull-right">
-                <ul class="list-unstyled list-inline">
-                  <li class="list-inline-item">
-                    <a href="/index.html" class="txtblack border-radius5">Home</a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="/about-us.html" class="txtblack border-radius5">About</a>
-                  </li>
-
-                  <li class="nav-item dropdown list-inline-item">
-                    <a href=" #" class="dropdown-toggle">Services</a>
-                     <ul class="dropdown-menu">
-                      <li><a href="./Cataracts.html">Cataracts</a></li>
-                      <li><a href="./Astigmatism.html">Astigmatism</a></li>
-                      <li><a href="./Glaucoma.html">Glaucoma</a></li>
-                      <li><a href="./Myopia.html">Myopia</a></li>
-                      <li><a href="./dry-eye.html">Dry Eyes</a></li>
-                      <li><a href="./diabetic-retinopathy.html">Diabetic Retinopathy</a></li>
-                      <li><a href="./lasik-surgery.html">Lasik Surgery</a></li>
-                    </ul>
-                  </li>
-                  <li class="list-inline-item mt-1 pt-1 ">
-                    <a href="#" class="txtblack border-radius5">Testimonial</a>
-                  </li>
-                  <!-- <li class="list-inline-item">
-                    <a href="tel:8057722700" class="txtblack border-ra rdius5">Book Appointment</a>
-                  </li> -->
-                  <li class="list-inline-item">
-                    <a href="tel:8057722700" class="bg-theme-new txtblack border-radius5">+91-8057722700</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          </nav>
         </div>
-      </div>
+      </header>
      
       
     </div>
@@ -77,7 +87,7 @@
         <div class="row">
           <div class="col-lg-5 ">
             <div class="glass-image-wrapper">
-              <img src="/Images/eye-checkup.jpeg" alt="Eye Checkup" class="img-fluid glass-image w-100" />
+              <img src="/Images/G-12.jpeg" alt="Eye Checkup" class="img-fluid glass-image w-100" />
             </div>
           </div>
           <div class="col-lg-7 padding-top20">
@@ -101,24 +111,26 @@
                   <!-- Card 1 -->
                   <div class="col-md-4 col-sm-6 mb-4">
                     <div class="highlight-card p-4">
-                      <h2 class="highlight-key">2001</h2>
-                      <p class="highlight-text mb-0">Serving Since</p>
+                      <h2 class="highlight-key">100+</h2>
+                      <p class="highlight-text mb-0">Retina Surgery 
+                      </p>
                     </div>
                   </div>
               
                   <!-- Card 2 -->
                   <div class="col-md-4 col-sm-6 mb-4">
                     <div class="highlight-card p-4">
-                      <h2 class="highlight-key">2K+</h2>
-                      <p class="highlight-text mb-0">Surgery Completed</p>
+                      <h2 class="highlight-key">5K+</h2>
+                      <p class="highlight-text mb-0">Glaucoma Surgery 
+                      </p>
                     </div>
                   </div>
               
                   <!-- Card 3 -->
                   <div class="col-md-4 col-sm-6 mb-4">
                     <div class="highlight-card p-4">
-                      <h2 class="highlight-key">15+</h2>
-                      <p class="highlight-text mb-0">Doctor's Team</p>
+                      <h2 class="highlight-key">10+</h2>
+                      <p class="highlight-text mb-0">Cataract Surgery</p>
                     </div>
                   </div>
               
@@ -183,7 +195,7 @@
                       <img src="/Images/eye-checkup.png" width="65px" class="padding-top10" />
                     </div>
                     <div>
-                      <h5 class="padding-top20">Vision Examination</h5>
+                      <h5 class="padding-top20">Vision <br/> Examination</h5>
                     </div>
                   </div>
                 </div>
@@ -282,63 +294,55 @@
 
    
 
-    <div class="bgsec bg-white">
-      <div class="container">
+   <!-- ====== Contact Us Section ====== -->
+<section class="contact-section bg-white py-5">
+  <div class="container">
+    <div class="row no-gutters shadow-sm rounded overflow-hidden">
 
-        <div class="row">
-          <div class="col-lg-6">
-            <img src="http://optrica.themetechmount.net/wp-content/uploads/2020/12/col-bg-01.jpg" width="100%" />
-          </div>
-          <div class="col-lg-6">
-            <div class="section-header text-center">
-              <h2 class="text-theme-highlight fw700 page-title  ">
-                Book An Appointment</h2>
-              <p>
-                For general queries telephone on +91-8057722700. This is staffed Monday to Friday 9.00am – 5.00pm.
-              </p>
-            </div>
+      <!-- Left Side - Google Map -->
+      <div class="col-lg-6 col-md-12">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.0580566480103!2d78.38338829576972!3d27.15446350569746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397446a5dda21063%3A0x88960c6a78d13b8c!2sDristi%20Eye%20Care%20Center%20-%20Best%20Eye%20Care%20Center%20in%20Firozabad!5e0!3m2!1sen!2sin!4v1762908674137!5m2!1sen!2sin" 
+          width="100%" height="100%" style="border:0; min-height: 400px;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
 
-            <div class="main padding-top20">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Enter Your Name" style="height: 50px;" />
-              </div>
-              <div class="form-group">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <input type="text" class="form-control" placeholder="Enter Your Phone No" style="height: 50px;" />
-                  </div>
-                  <div class="col-lg-6">
-                    <input type="text" class="form-control" placeholder="Enter Your Email Id" style="height: 50px;" />
-                  </div>
-                </div>
-              </div>
-              <div class="form-group padding-bottom20">
-                <input type="text" class="form-control" placeholder="Enter Your Message" style="height: 120px;" />
-              </div>
-              <div class="form-group">
-                <a href="tel:8057722700"
-                  class="bg-theme-new margintop20 padding-left20 padding-right20 padding-top10 padding-bottom10  font-20 btn-round txtblack fw500">
-                  Submit Now</a>
+      <!-- Right Side - Contact Details Card -->
+      <div class="col-lg-6 col-md-12 d-flex align-items-center">
+        <div class="w-100 p-4 p-md-5 bg-light rounded-right">
+          <h3 class="fw-bold mb-4 text-theme-highlight" style="font-family: 'Rajdhani', sans-serif;">Get In Touch</h3>
 
-              </div>
-            </div>
-
-
-
-
-
+          <div class="mb-4">
+            <h5 class="fw-semibold mb-1"><i class="fa fa-phone text-theme-highlight mr-2"></i> Clinic Phone</h5>
+            <p class="mb-0 text-muted">+91-8057722700</p>
           </div>
 
+          <div class="mb-4">
+            <h5 class="fw-semibold mb-1"><i class="fa fa-map-marker text-theme-highlight mr-2"></i> Clinic Address</h5>
+            <p class="mb-0 text-muted">1/707, opp. Park, Islam Ganj, Suhag Nagar, Firozabad, Uttar Pradesh 283203</p>
+          </div>
+
+          <div class="mb-4">
+            <h5 class="fw-semibold mb-1"><i class="fa fa-envelope text-theme-highlight mr-2"></i> Email Us</h5>
+            <p class="mb-0 text-muted">info@dristieyecare.in</p>
+          </div>
+
+          <a href="https://crm.dristieye.com/login" class="btn bg-theme text-white rounded-pill font-weight-bold px-4 py-2 font-18">
+            <i class="fa fa-calendar mr-2"></i> Book Appointment
+          </a>
         </div>
       </div>
+
     </div>
+  </div>
+</section>
 
     <div class="padding-top50 padding-bottom20 bg-gray">
       <div class="footer padding-bottom20">
         <div class="container padding-bottom20">
           <div class="text-center padding-bottom20">
             <ul class="list-inline list-unstyled">
-              <li>Copyright © 2022 Drishti Eye Care. ALL RIGHTS RESERVED.</li>
+              <li>Copyright © 2025 Drishti Eye Care. ALL RIGHTS RESERVED.</li>
 
 
             </ul>
