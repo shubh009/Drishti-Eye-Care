@@ -1096,19 +1096,16 @@ ul .Vdivider {
 }
 
 .mobile-cta {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #af3233eb; /* match theme color */
-  z-index: 1050;
+  z-index: 2000;
 }
 
 .mobile-cta .btn {
-  background: none;
-  border: none;
-  border-radius: 0;
   font-size: 1rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.mobile-cta .btn:last-child {
+  border-right: none;
 }
 
 /* Prevent double CTA visibility on desktop */
@@ -1121,5 +1118,101 @@ ul .Vdivider {
 @media (min-width: 450px) {
   .bottom-cta {
     display: none !important;
+  }
+}
+
+.whatsapp-float {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  bottom: 100px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp-icon {
+  font-size: 28px;
+  color: #fff;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.08);
+  transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 767px) {
+  .whatsapp-float {
+    width: 50px;
+    height: 50px;
+    bottom: 70px;
+    right: 12px;
+    font-size: 25px;
+  }
+}
+
+.call-float {
+  position: fixed;
+  bottom: 130px; /* keeps it above mobile CTA buttons */
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #af3233eb; /* theme color */
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 1100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+.call-icon {
+  font-size: 30px;
+  color: #fff;
+}
+
+.call-float:hover {
+  transform: scale(1.1);
+}
+
+/* Mobile adjustments */
+@media (max-width: 767px) {
+  .call-float {
+    width: 50px;
+    height: 50px;
+    bottom: 140px; /* stays above your two bottom buttons */
+    right: 15px;
+  }
+  .call-icon {
+    font-size: 25px !important;
+  }
+}
+/* Responsive scaling for mobile */
+@media (max-width: 767px) {
+  .First-page-title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .First-page-title {
+    font-size: 1.5rem !important;
+    line-height: 1.35;
+  }
+  h2 {
+    font-size: 1.3rem !important;
+    line-height: 1.35;
+    font-weight: 800 !important;
   }
 }

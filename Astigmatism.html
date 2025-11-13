@@ -19,183 +19,75 @@
     <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet" />
     <link rel=”stylesheet” href=”https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css”>
+
+    <meta name="author" content="dristieyecare.in" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   </head>
 
   <body>
 
     <div class="col-lg-12 noleftpadding norightpadding">
-      <div class="header box-shadow bg-white">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5">
-              <img src="/Images/Drishti Logo.jpeg" width="70px" height="70px" class="pull-left" />
-              <div class="pull-left">
-                <span class="logo text-th pull-left fulldiv"> Dristi Eye </span>
-                <span class="logo text-th pull-left fulldiv"> Care Centre</span>
-              </div>
-            </div>
-
-            <div class="col-lg-7">
-              <div class="pull-right">
-                <ul class="list-unstyled list-inline">
-                  <li class="list-inline-item">
-                    <a href="#" class="txtblack border-radius5">Home</a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#" class="txtblack border-radius5">About</a>
-                  </li>
-
-                  <li class="nav-item dropdown list-inline-item">
-                    <a href=" #" class="dropdown-toggle">Services</a>
-                     <ul class="dropdown-menu">
-                      <li><a href="./Cataracts.html">Cataracts</a></li>
-                      <li><a href="./Astigmatism.html">Astigmatism</a></li>
-                      <li><a href="./Glaucoma.html">Glaucoma</a></li>
-                      <li><a href="./Myopia.html">Myopia</a></li>
-                      <li><a href="./dry-eye.html">Dry Eyes</a></li>
-                      <li><a href="./diabetic-retinopathy.html">Diabetic Retinopathy</a></li>
-                      <li><a href="./lasik-surgery.html">Lasik Surgery</a></li>
-                    </ul>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#" class="txtblack border-radius5">Testimonial</a>
-                  </li>
-                  <!-- <li class="list-inline-item">
-                        <a href="tel:8057722700" class="txtblack border-radius5">Book Appointment</a>
-                      </li> -->
-                  <li class="list-inline-item">
-                    <a href="tel:8057722700" class="bg-theme-new txtblack border-radius5">+91-8057722700</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+     <!-- Responsive Header -->
+<header class="header box-shadow bg-white">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-0">
+      <!-- Logo Section -->
+      <a class="navbar-brand d-flex align-items-centre" href="/">
+        <img src="/Images/Drishti Logo.jpeg" alt="Dristi Eye Care Logo" width="60" class="mr-2" />
+        <div class="d-flex flex-column lh-1">
+          <span class="logo text-th font-weight-bold">Dristi Eye</span>
+          <span class="logo text-th font-weight-bold">Care Centre</span>
         </div>
-      </div>
-      <!-- Cataract Treatment with phacoemulsification is performed on an outpatient basis under topical or regional anesthesia 
-          
-            At our institute a comprehensive eye check-up helps us catch the disease in unsuspecting cases even before the person is aware of symptoms like a frequent change of glasses, poor dark adaptation, headache mistaken to be migraine etc.
-    
-            At our center, we perform medical retitina emergency under supervison of Eeprts
-          -->
-      <div class="bgsecnew">
-        <div class="col-lg-7 pull-right noleftpadding norightpadding slider-new">
-          <div class="container">
-            <div class="pull-left headercta txtwhite" style="padding: 50px">
-              <h1 class="text-capitalize fw700"><span class="color-thme-new">Eye Care</span> Specialist</h1>
-              <h2 class="fw700 padding-top10">
-                That You Can <span class="color-thme-new">Trust</span>
-              </h2>
-              <p class="text-white fw400 padding-top20">
-                Because the safety of your visual health is our primary concern,<br>operates under strictest clinical
-                governance</p>
-              </p>
+      </a>
 
-              <ul class="list-inline list-unstyled padding-top50">
-                <li class="list-inline-item">
-                  <img src="Images/eye-checkup.png" width="60px" />
-                </li>
-                <li class="list-inline-item text-white heading Vdivider">
-                  <span>Cataract
-                  </span><br>
-                  <span>Surgery</span>
-                </li>
-                <li class="list-inline-item padding-left30">
-                  <img src="Images/Contact-lense.png" width="60px" />
-                </li>
-                <li class="list-inline-item text-white heading Vdivider">
-                  <span>Glaucoma
-                  </span></br>
-                  <span>Services</span>
-                </li>
-                <li class="list-inline-item padding-left30">
-                  <img src="Images/retina-Scan.png" width="60px" />
-                </li>
-                <li class="list-inline-item text-white heading">
-                  <span>Retina
-                  </span></br>
-                  <span>Services</span>
-                </li>
-              </ul>
+      <!-- Toggle Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-              <a href="#" class="bg-theme-new margintop40 txtwhite pull-left btn-round txtblack action"> <i
-                  class="fa fa-calendar"></i>
-                Book A Free Consultation</a>
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav align-items-lg-centre">
+          <li class="nav-item">
+            <a class="nav-link txtblack" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link txtblack" href="/about-us.html">About</a>
+          </li>
 
-              <!-- <div class="col-lg-4 pull-left course-block margintop40">
-                    <div
-                      class="bg-white paddingall20 border-radius5"
-                      style="border-bottom: solid 5px firebrick"
-                    >
-                      <img
-                        src="Images/Online-Bachelor-degree-upgrad.jpeg"
-                        width="100%"
-                      />
-    
-                      <p class="txtblack title text-capitalize padding-bottom10">
-                        Online Bachelor’s Degrees From Top Universities
-                      </p>
-                      <a
-                        href="#"
-                        class="bg-firebrick padding-top10 pull-left btn-round action"
-                      >
-                        Explore Courses</a
-                      >
-                    </div>
-                  </div>
-                  <div class="col-lg-4 pull-left course-block margintop40">
-                    <div
-                      class="bg-white paddingall20 border-radius5"
-                      style="border-bottom: solid 5px firebrick"
-                    >
-                      <img
-                        src="Images/Online-MBA-Upgrad.jpeg"
-                        width="300px"
-                        height="158px"
-                      />
-    
-                      <p class="txtblack title text-capitalize padding-bottom10">
-                        Get the Right MBA Degree from top Universities
-                      </p>
-                      <a
-                        href="#"
-                        class="bg-firebrick padding-top10 pull-left btn-round action"
-                      >
-                        Explore Courses</a
-                      >
-                    </div>
-                  </div>
-                  <div class="col-lg-4 pull-left course-block margintop40">
-                    <div
-                      class="bg-white paddingall20 border-radius5"
-                      style="border-bottom: solid 5px firebrick"
-                    >
-                      <img
-                        src="Images/carrer-Upgrad.jpeg"
-                        width="300px"
-                        height="158px"
-                      />
-    
-                      <p class="txtblack title text-capitalize padding-bottom10">
-                        1:1 career session with Experts -
-                        <i class="fa fa-rupee"></i>599 Onwards
-                      </p>
-                      <a
-                        href="#"
-                        class="bg-firebrick padding-top10 pull-left btn-round action"
-                      >
-                        Explore Courses</a
-                      >
-                    </div>
-                  </div> -->
-
-              <!-- <a href="#" class="bg-firebrick margintop20 pull-left btn-round">
-                    Explore Courses</a
-                  > -->
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle txtblack" href="#" id="servicesDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <a class="dropdown-item" href="./Cataracts.html">Cataracts</a>
+              <a class="dropdown-item" href="./Astigmatism.html">Astigmatism</a>
+              <a class="dropdown-item" href="./Glaucoma.html">Glaucoma</a>
+              <a class="dropdown-item" href="./Myopia.html">Myopia</a>
+              <a class="dropdown-item" href="./dry-eye.html">Dry Eyes</a>
+              <a class="dropdown-item" href="./diabetic-retinopathy.html">Diabetic Retinopathy</a>
+              <a class="dropdown-item" href="./lasik-surgery.html">Lasik Surgery</a>
             </div>
-          </div>
-        </div>
+          </li>
+
+          <!-- <li class="nav-item">
+            <a class="nav-link txtblack" href="#">Testimonial</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="https://crm.dristieye.com" class="btn bg-theme rounded-pill text-white ml-lg-3 mt-2 mt-lg-0">
+              <i class="fa fa-lock mr-1"></i> Login Here
+            </a>
+          </li>
+        </ul>
       </div>
+    </nav>
+  </div>
+</header>
+      
     </div>
 
     <div class="clearfix"></div>
@@ -457,57 +349,48 @@
     </div>
 
 
-    <div class="bgsec bg-white">
-      <div class="container">
+    <!-- ====== Contact Us Section ====== -->
+<section class="contact-section bg-white py-5">
+  <div class="container">
+    <div class="row no-gutters shadow-sm rounded overflow-hidden">
 
-        <div class="row">
-          <div class="col-lg-6">
-            <img src="http://optrica.themetechmount.net/wp-content/uploads/2020/12/col-bg-01.jpg" class="img-thumbnail"
-              width="100%" />
-          </div>
-          <div class="col-lg-6">
-            <div class="section-header text-center">
-              <h2 class="text-theme-highlight fw700 page-title  ">
-                Book An Appointment</h2>
-              <p>
-                For general queries telephone on +91-8057722700. This is staffed Monday to Friday 9.00am – 5.00pm.
-              </p>
-            </div>
+      <!-- Left Side - Google Map -->
+      <div class="col-lg-6 col-md-12">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.925772535526!2d78.38096387567009!3d27.158625576501464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397441c7348fc945%3A0x97978745a9a0df4f!2sDr.Ashok%20Dwivedi%20%26%20Dr.%20Kavita%20Dwivedi!5e0!3m2!1sen!2sin!4v1762998374536!5m2!1sen!2sin" 
+          width="100%" height="100%" style="border:0; min-height: 400px;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
 
-            <div class="main padding-top20">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Enter Your Name" style="height: 50px;" />
-              </div>
-              <div class="form-group">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <input type="text" class="form-control" placeholder="Enter Your Phone No" style="height: 50px;" />
-                  </div>
-                  <div class="col-lg-6">
-                    <input type="text" class="form-control" placeholder="Enter Your Email Id" style="height: 50px;" />
-                  </div>
-                </div>
-              </div>
-              <div class="form-group padding-bottom20">
-                <input type="text" class="form-control" placeholder="Enter Your Message" style="height: 120px;" />
-              </div>
-              <div class="form-group">
-                <a href="tel:8057722700"
-                  class="bg-theme-new margintop20 padding-left20 padding-right20 padding-top10 padding-bottom10  font-20 btn-round txtblack fw500">
-                  Submit Now</a>
+      <!-- Right Side - Contact Details Card -->
+      <div class="col-lg-6 col-md-12 d-flex align-items-centre">
+        <div class="w-100 p-4 p-md-5 bg-light rounded-right">
+          <h3 class="fw-bold mb-4 text-theme-highlight" style="font-family: 'Rajdhani', sans-serif;">Get In Touch</h3>
 
-              </div>
-            </div>
-
-
-
-
-
+          <div class="mb-4">
+            <h5 class="fw-semibold mb-1"><i class="fa fa-phone text-theme-highlight mr-2"></i> Clinic Phone</h5>
+            <p class="mb-0 text-muted">+91-8057722700</p>
           </div>
 
+          <div class="mb-4">
+            <h5 class="fw-semibold mb-1"><i class="fa fa-map-marker text-theme-highlight mr-2"></i> Clinic Address</h5>
+            <p class="mb-0 text-muted">1/707, Sector1, opp. Guptaji Bohre Park, Suhag Nagar, Firozabad, Uttar Pradesh 283203</p>
+          </div>
+
+          <div class="mb-4">
+            <h5 class="fw-semibold mb-1"><i class="fa fa-envelope text-theme-highlight mr-2"></i> Email Us</h5>
+            <p class="mb-0 text-muted">info@dristieyecare.in</p>
+          </div>
+
+          <a href="https://crm.dristieye.com/login" class="btn bg-theme text-white rounded-pill font-weight-bold px-4 py-2 font-18">
+            <i class="fa fa-calendar mr-2"></i> Book Appointment
+          </a>
         </div>
       </div>
+
     </div>
+  </div>
+</section>
 
     <div class="padding-top50 padding-bottom20 bg-gray">
       <div class="footer padding-bottom20">
@@ -527,16 +410,40 @@
 
 
 
-      <div class="bottom-cta bg-theme-new">
-        <div class="container">
-          <span class="text-center txtblack pull-left fulldiv margintop10">
-            <h3>
-              To Avoid long Queue, book a free Appointment by call @
-              +91-8057722700
-            </h3>
-          </span>
-        </div>
+      <div class="bottom-cta bg-theme-new py-3 d-none d-lg-block">
+      <div class="container">
+        <span class="text-centre txtblack">
+          <h3 class="mb-0 text-center">
+            To Avoid long Queue, book an Appointment 
+            <a href="https://crm.dristieye.com" class="btn bg-white rounded-pill font-weight-bold font-18 ml-lg-3 mt-lg-0 px-4">
+              <i class="fa fa-lock mr-1"></i> Login Here
+            </a>
+          </h3>
+        </span>
       </div>
+    </div>
+
+    <div class="mobile-cta d-lg-none d-flex fixed-bottom w-100 shadow-lg">
+      <a href="https://crm.dristieye.com/"
+         class="btn btn-warning flex-fill text-black py-3 font-weight-bold rounded-0">
+        <i class="fa fa-calendar mr-2"></i> Book Appointment
+      </a>
+    
+      <a href="https://www.google.com/maps/dir/?api=1&destination=Dristi+Eye+Care+Centre"
+         class="btn btn-danger flex-fill text-white py-3 font-weight-bold rounded-0">
+        <i class="fa fa-location-arrow mr-2"></i>Hospital Directions
+      </a>
+    </div>
+
+      <!-- Floating WhatsApp Button -->
+   <a href="https://wa.me/918057722700" target="_blank" class="whatsapp-float">
+    <i class="fa fa-whatsapp whatsapp-icon"></i>
+    
+   </a>
+   <!-- Floating Call Button -->
+<a href="tel:+918057722700" class="call-float" aria-label="Call Now">
+  <i class="fa fa-phone call-icon"></i>
+</a>
   </body>
 
 </html>
